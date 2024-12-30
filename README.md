@@ -1,4 +1,9 @@
-# TiltedSeg Pipeline
+# Geometric Framework for 3D Cell Segmentation Correction
+
+## Main Pipeline - GeoSeg
+Upcoming.
+
+## Sub Pipeline - TiltedSeg
 
 A tool for correcting tilted oversegmentation produced by PlantSeg.
 
