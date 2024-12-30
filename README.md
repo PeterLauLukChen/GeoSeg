@@ -1,7 +1,7 @@
 # Geometric Framework for 3D Cell Segmentation Correction
 
 ## Main Pipeline - GeoSeg
-Upcoming.
+Coming soon
 
 ## Sub Pipeline - TiltedSeg
 
