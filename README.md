@@ -39,7 +39,7 @@ We strongly recommend integrating human feedback into the pipeline when using ou
 ## Usage Pipeline
 
 ### Step 1: Data Preparation
-Replace the "data" folder with your own "gasp" folder from zarr. Maintain the folder name as "data".
+Upload the "data" folder with your own "gasp" folder from zarr. Maintain the folder name as "data".
 
 ### Step 2: Install Dependencies
 ```bash
