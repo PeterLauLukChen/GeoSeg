@@ -6,7 +6,7 @@ This repository contains the code implementation for the work:
 
 ## Workflow
 
-Welcome to GeoSeg! This the supplementary material that presents the implementation for the submission, which includes two pipeline: GeoSeg (for 2D-based method correction) and TiltedSeg(for 3D-based method correction). Please refer to each pipeline for further information on using GeoSeg.
+Welcome to GeoSeg! This supplementary material presents the implementation details for our submission, which includes two pipelines: GeoSeg (for 2D-based method correction) and TiltedSeg (for 3D-based method correction). Please refer to each pipeline for further information on using GeoSeg.
 
 ## Main Pipeline - GeoSeg
 
