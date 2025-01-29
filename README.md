@@ -20,8 +20,12 @@ The main pipeline implementation is designed to both detect and correct 3D segme
 ├── EMD.py                  # Sub-program for obtaining geometric information of candidates
 ├── Ochecker_reg.py         # Sub-program for obtaining topological shape of candidates
 ├── mlp_model_epoch_50.pth  # Pre-trained model using labeled plant cells
-└── implementation.ipynb    # Main usage notebook for detecting and correcting cell segmentation error 
+└── implementation.ipynb    # Main usage notebook for detecting and correcting cell segmentation error
 ```
+
+### Usage Notebook
+
+Please refer to the `implementation.ipynb` for further details of usage. 
 
 
 ## Sub Pipeline - TiltedSeg
@@ -29,7 +33,6 @@ The main pipeline implementation is designed to both detect and correct 3D segme
 A tool for correcting tilted oversegmentation produced by 3D-based segmentation methods.
 
 ### Repository Structure
-
 ```
 .
 ├── data/                  # Folder containing 2D segmentation result, uploading your zarr result to here
