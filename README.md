@@ -4,12 +4,16 @@ This repository contains the code implementation for the work:
 
 *Geometric Framework for 3D Cell Segmentation Correction*
 
+## Workflow
+
+Welcome to GeoSeg! This the supplementary material that presents the implementation for the submission, which includes two pipeline: GeoSeg (for 2D-based method correction) and TiltedSeg(for 3D-based method correction). Please refer to each pipeline for further information on using GeoSeg.
+
 ## Main Pipeline - GeoSeg
-Coming soon
+
 
 ## Sub Pipeline - TiltedSeg
 
-A tool for correcting tilted oversegmentation produced by PlantSeg.
+A tool for correcting tilted oversegmentation produced by 3D-based segmentation methods.
 
 ## Repository Structure
 
