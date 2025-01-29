@@ -36,12 +36,12 @@ A tool for correcting tilted oversegmentation produced by 3D-based segmentation 
 ```
 .
 ├── data/                  # Folder containing 2D segmentation result, uploading your zarr result to here
-├── cellstitch/           # Original CellStitch modules
-├── CandidateSearching.py # Main program for candidate processing and stitching determination
-├── EMD.py                # Sub-program for obtaining geometric information of candidates
-├── Ochecker_reg.py       # Sub-program for obtaining topological shape of candidates
+├── cellstitch/            # Original CellStitch modules
+├── CandidateSearching.py  # Main program for candidate processing and stitching determination
+├── EMD.py                 # Sub-program for obtaining geometric information of candidates
+├── Ochecker_reg.py        # Sub-program for obtaining topological shape of candidates
 ├── mlp_model_epoch_50.pth # Pre-trained model using labeled plant cells
-└── tiltedseg.py          # Main program for filtering potential oversegmentation candidates
+└── tiltedseg.py           # Main program for filtering potential oversegmentation candidates
 ```
 
 ### Pre-trained Model Information
