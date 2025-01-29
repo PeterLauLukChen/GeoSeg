@@ -21,9 +21,7 @@ A tool for correcting tilted oversegmentation produced by PlantSeg.
 ├── EMD.py                # Sub-program for obtaining geometric information of candidates
 ├── Ochecker_reg.py       # Sub-program for obtaining topological shape of candidates
 ├── mlp_model_epoch_50.pth # Pre-trained model using labeled plant cells
-├── tiltedseg.ipynb       # Main notebook containing breakdown for tiltedseg.py
 ├── tiltedseg.py          # Main program for filtering potential oversegmentation candidates
-├── run.sh                # Example SBATCH script for job submission
 └── requirements.txt      # Required Python packages
 ```
 
