@@ -12,7 +12,7 @@ Welcome to GeoSeg! This supplementary material presents the implementation detai
 
 The main pipeline implementation is designed to both detect and correct 3D segmentation errors from 2D-based methods. Please refer to the following workflow for usage.
 
-## Repository Structure
+### Repository Structure
 ```
 .               
 ├── cellstitch/             # Original CellStitch modules
