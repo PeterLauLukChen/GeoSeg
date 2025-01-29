@@ -28,7 +28,7 @@ The main pipeline implementation is designed to both detect and correct 3D segme
 
 A tool for correcting tilted oversegmentation produced by 3D-based segmentation methods.
 
-## Repository Structure
+### Repository Structure
 
 ```
 .
@@ -41,31 +41,31 @@ A tool for correcting tilted oversegmentation produced by 3D-based segmentation 
 └── tiltedseg.py          # Main program for filtering potential oversegmentation candidates
 ```
 
-## Pre-trained Model Information
+### Pre-trained Model Information
 
 The pre-trained model is built using labeled plant cells from CellPose 2D results. We strongly recommend:
 - Building your own pre-trained model using your PlantSeg data
 - Referring to our paper for detailed instructions on model building pipeline
 
-## Human Feedback Integration
+### Human Feedback Integration
 
 We strongly recommend integrating human feedback into the pipeline when using our pre-trained model on animal cells for the following reasons:
 
 1. The pre-trained model is built upon CellStitch 2D segmentation results and transferred to the tilted case
 2. The model is trained using plant cells and may not fully capture patterns present in animal or human cells
 
-## Usage Pipeline
+### Usage Pipeline
 
-### Step 1: Data Preparation
+#### Step 1: Data Preparation
 Upload the "data" folder with your own cell 2D segmentation result folder from zarr. Maintain the folder name as "data".
 
-### Step 2: Install Dependencies
+#### Step 2: Install Dependencies
 ```bash
 cd titledseg
 pip install -r requirements.txt
 ```
 
-### Step 3: Run TiltedSeg
+#### Step 3: Run TiltedSeg
 Execute with tolerance penalty and mode parameters:
 ```bash
 python tiltedseg.py --PENALTY 1.3 --MODE minmax
@@ -77,7 +77,7 @@ Parameters:
 - `MODE` (str, options: minmax or q1q3)
   - q1q3 mode provides tighter thresholds compared to minmax, reducing incorrect stitching risk
 
-### Step 4: Review Results
+#### Step 4: Review Results
 Check the output for potential candidates in the format:
 ```
 [[cell_ids1, cell_ids2], [..., ...]]
