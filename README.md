@@ -30,7 +30,7 @@ Please refer to the `implementation.ipynb` for further details of usage.
 
 ## Sub Pipeline - TiltedSeg
 
-A tool for correcting tilted oversegmentation produced by 3D-based segmentation methods.
+A tool for correcting tilted oversegmentation produced by 3D-based segmentation methods. The notebook consists of two blocks: the first block identifies the problematic masks, and the second block constructs the corrected 3D segmentation result using the detection information from the first block.
 
 ### Repository Structure
 ```
