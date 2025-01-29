@@ -10,18 +10,16 @@ Welcome to GeoSeg! This supplementary material presents the implementation detai
 
 ## Main Pipeline - GeoSeg
 
-## Repository Structure
 
+## Repository Structure
 ```
-.
-├── data/                  # Folder containing GASP files from sections
-├── cellstitch/           # Original CellStitch modules
-├── CandidateSearching.py # Main program for candidate processing and stitching determination
-├── EMD.py                # Sub-program for obtaining geometric information of candidates
-├── Ochecker_reg.py       # Sub-program for obtaining topological shape of candidates
-├── mlp_model_epoch_50.pth # Pre-trained model using labeled plant cells
-├── tiltedseg.py          # Main program for filtering potential oversegmentation candidates
-└── requirements.txt      # Required Python packages
+.               
+├── cellstitch/             # Original CellStitch modules
+├── CandidateSearching.py   # Main program for candidate processing and stitching determination
+├── EMD.py                  # Sub-program for obtaining geometric information of candidates
+├── Ochecker_reg.py         # Sub-program for obtaining topological shape of candidates
+├── mlp_model_epoch_50.pth  # Pre-trained model using labeled plant cells
+└── implementation.ipynb    # Main usage notebook for detecting and correcting cell segmentation error 
 ```
 
 
@@ -39,8 +37,7 @@ A tool for correcting tilted oversegmentation produced by 3D-based segmentation 
 ├── EMD.py                # Sub-program for obtaining geometric information of candidates
 ├── Ochecker_reg.py       # Sub-program for obtaining topological shape of candidates
 ├── mlp_model_epoch_50.pth # Pre-trained model using labeled plant cells
-├── tiltedseg.py          # Main program for filtering potential oversegmentation candidates
-└── requirements.txt      # Required Python packages
+└── tiltedseg.py          # Main program for filtering potential oversegmentation candidates
 ```
 
 ## Pre-trained Model Information
