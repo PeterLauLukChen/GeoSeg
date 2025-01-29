@@ -8,6 +8,12 @@ This repository contains the code implementation for the work:
 
 Welcome to GeoSeg! This supplementary material presents the implementation details for our submission, which includes two pipelines: GeoSeg (for 2D-based method correction) and TiltedSeg (for 3D-based method correction). Please refer to each pipeline for further information on using GeoSeg.
 
+### Install Dependencies
+```bash
+cd titledseg
+pip install -r requirements.txt
+```
+
 ## Main Pipeline - GeoSeg
 
 The main pipeline implementation is designed to both detect and correct 3D segmentation errors from 2D-based methods. Please refer to the following workflow for usage.
@@ -62,13 +68,7 @@ We strongly recommend integrating human feedback into the pipeline when using ou
 #### Step 1: Data Preparation
 Upload the "data" folder with your own cell 2D segmentation result folder from zarr. Maintain the folder name as "data".
 
-#### Step 2: Install Dependencies
-```bash
-cd titledseg
-pip install -r requirements.txt
-```
-
-#### Step 3: Run TiltedSeg
+#### Step 2: Run TiltedSeg
 Execute with tolerance penalty and mode parameters:
 ```bash
 python tiltedseg.py --PENALTY 1.3 --MODE minmax
@@ -80,7 +80,7 @@ Parameters:
 - `MODE` (str, options: minmax or q1q3)
   - q1q3 mode provides tighter thresholds compared to minmax, reducing incorrect stitching risk
 
-#### Step 4: Review Results
+#### Step 3: Review Results
 Check the output for potential candidates in the format:
 ```
 [[cell_ids1, cell_ids2], [..., ...]]
