@@ -30,12 +30,12 @@ The main pipeline implementation is designed to both detect and correct 3D segme
 
 ### Usage Notebook
 
-Please refer to the `implementation.ipynb` for further details of usage. 
+Please refer to the `implementation.ipynb` for further details of usage. The notebook consists of two blocks: the first block identifies the problematic masks, and the second block constructs the corrected 3D segmentation result using the detection information from the first block.
 
 
 ## Sub Pipeline - TiltedSeg
 
-A tool for correcting tilted oversegmentation produced by 3D-based segmentation methods. The notebook consists of two blocks: the first block identifies the problematic masks, and the second block constructs the corrected 3D segmentation result using the detection information from the first block.
+A tool for correcting tilted oversegmentation produced by 3D-based segmentation methods.
 
 ### Repository Structure
 ```
@@ -57,7 +57,7 @@ The pre-trained model is built using labeled plant cells from CellPose 2D result
 
 ### Human Feedback Integration
 
-We strongly recommend integrating human feedback into the pipeline when using our pre-trained model on animal cells for the following reasons:
+We also strongly recommend integrating human feedback into the pipeline when using our pre-trained model on animal cells for the following reasons:
 
 1. The pre-trained model is built upon CellStitch 2D segmentation results and transferred to the tilted case
 2. The model is trained using plant cells and may not fully capture patterns present in animal or human cells
