@@ -32,6 +32,7 @@ The main pipeline implementation is designed to both detect and correct 3D segme
 
 Please refer to the `implementation.ipynb` for further details of usage. The notebook consists of two blocks: the first block identifies the problematic masks, and the second block constructs the corrected 3D segmentation result using the detection information from the first block.
 
+It would take 2 to 3 hours to correct a 1GB image stack using 2 × NVIDIA A40 GPUs.
 
 ## Sub Pipeline - TiltedSeg
 
