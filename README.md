@@ -10,7 +10,6 @@ Welcome to GeoSeg! This supplementary material presents the implementation detai
 
 ### Install Dependencies
 ```bash
-git clone https://github.com/PeterLauLukChen/GeoSeg.git
 cd GeoSeg
 pip install -r requirements.txt
 ```
